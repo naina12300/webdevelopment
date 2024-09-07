@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ body{
+  background-color: teal;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  } 
+  header{
+    font-style: italic;
+  }
+
+
+.navigation-list {
+  background-color: lightblue;
+  font-style: italic;
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style:disc;
+}
+  .textcapital {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .textsmall {
+    font-style: italic;
+    font-size: 18px;
+  }
+  .container{
+    background-color: lightblue;
+    padding :20 px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  

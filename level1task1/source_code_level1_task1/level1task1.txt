@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Task 1 (part 1)</title>
+	<link rel="stylesheet" href="stylelevel1task1.css">
+	
+	<script>
+	function validation()
+	{
+		var username=document.getElementByID("name");
+		if(username.valuse.trim()=="")
+		{
+			alert("no blank value allowed");
+			username.style.border="solid 3px red";
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+</script>
+</head>
+
+<body>
+	<header style="text-align: center ;font-size: 48px; color: floralwhite;">
+	Cognifyz Technologies
+<img src="C:\Users\HP\Desktop\Naina Internship\download.jpeg" style="height:40px;"></header>
+</header>
+    <nav>
+       
+        <ul class="navigation-list">
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="js.html">Javascript</a></li>
+        </ul>
+		<div class="container">
+			<h2 style="text-align: center; font-size: 20px;"></h2>
+      <form onsubmit="return validation()" action = "message.html">
+
+      	<input id="name" placeholder ="Name" type="text">
+
+      	<button type ="submit">Submit</button>
+      </from>     
+      </div>   
+	  </nav>
+      
+      
+		
+			<div class="intro">
+				<h1 class="textcapital"
+					id="introduction">About us
+				</h1>
+				<p class="textsmall">
+					 Cognifyz Technologies is a leading technology company that specializes in the dynamic field of data science and excels in delivering impactful projects and solutions.
+					 The company offers a wide range of products and services,including artificial intelligence (AI), machine learning (ML), and data analytics tools. Cognifyz Technologies also provides training programs to enhance skills and knowledge in these areas.
+					 The company focuses on delivering innovative and cutting-edge solutions to meet the evolving needs of businesses.
+					 Cognifyz Technologies also provides training programs to enhance skills and knowledge in these areas .The company focuses on delivering innovative and cutting-edge .solutions to meet the evolving needs of businesses.
+					 Cognifiz is a forward-thinking technology solutions company renowned for its innovative approach to digital transformation and enterprise software development. Specializing in a broad spectrum of services, including artificial intelligence, cloud computing, and data analytics, Cognifiz is dedicated to helping businesses harness the power of technology to drive growth and efficiency. 
+					 With a customer-centric philosophy, the company partners with organizations to deliver customized solutions that address their unique challenges and goals. Through a blend of cutting-edge technology and deep industry expertise, Cognifiz empowers its clients to navigate the complexities of the digital age, ensuring they stay ahead in an ever-evolving marketplace. 
+					 Commitment to excellence, continuous learning, and fostering a collaborative environment are at the core of Cognifiz's operations, making it a trusted ally for companies seeking to innovate and thrive in the digital era.
+					</p>
+					<h2 class="textcapital" id="introduction">About Internship</h2>
+					<p class="textsmall">
+						Cognifiz is offering a dynamic one-month internship program designed to provide aspiring professionals with hands-on experience in the tech industry. 
+						This internship is an excellent opportunity for students and recent graduates to immerse themselves in real-world projects, working alongside experienced mentors and industry experts.
+						 Interns at Cognifiz will gain practical skills in areas such as software development, data analytics, artificial intelligence, and cloud computing, contributing to meaningful projects that have a direct impact on the company's clients.
+
+						 The program is structured to foster learning and growth, with a focus on problem-solving, innovation, and teamwork. Participants will have the chance to attend workshops, engage in collaborative projects, and receive personalized feedback to enhance their technical and professional skills. 
+Cognifiz is committed to providing a supportive and inclusive environment where interns can thrive, build their network, and lay a strong foundation for their future careers in technology.
+
+Whether you are looking to deepen your knowledge, gain practical experience, or explore a potential career path, the Cognifiz internship offers a comprehensive and enriching experience that equips you with the skills and insights needed to succeed in the fast-paced tech industry
+					</p>
+			</div>
+				
+		
+		   
+</body>
+</html>

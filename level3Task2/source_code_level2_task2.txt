@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Internship at  Cognifyz Technologies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .cta {
+            text-align: center;
+        }
+        .cta button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .cta button:hover {
+            background: #0056b3;
+        }
+        .footer {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Web Developer Internship Opportunities at Cognifyz Technologies</h1>
+        </div>
+            <div class="about">
+                <h2>About Us</h2>
+                <p>About
+                    Cognifyz Technologies is a technology company that provides software solutions for businesses. 
+                    The company offers a range of products and services, including artificial intelligence (AI), machine learning (ML), and data analytics tools.
+                    
+                    One of the main offerings of Cognifyz Technologies is their AI-powered chatbot platform, which can be integrated with various communication channels such as websites, social media, and messaging apps.
+                     The chatbot platform allows businesses to automate their customer support and engagement, reduce response time, and improve customer satisfaction.
+                    
+                    Cognifyz Technologies also provides ML-based solutions for predictive analytics, fraud detection, and recommendation engines. 
+                    These tools help businesses to analyze large amounts of data and make data-driven decisions in real-time.</p>
+            </div>
+        <div class="intro">
+            <h3>Overview Of The Internship Program And Duration</h3>
+            <ul>
+                <li><strong> Internship Project: </strong>Initially, you will undertake a one-month internship project aimed at evaluating your skills and capabilities. 
+                Upon successful completion, you will be required to submit your project work along with the relevant code files and administrative cost.</li>
+
+               <li><strong>Review and Interview Process: </strong>Following the submission of your project, our team will conduct a thorough review, which typically takes around 10-15 days.
+                 If your project meets our criteria, you will be invited for an interview. During the interview, we will further evaluate your qualifications and suitability for the internship position.
+                  Additionally, please note that there is an administrative cost associated with the interview and documentation process.</li> 
+                
+               <li><strong>Duration Options: </strong>We offer a one-month internship to all applicants. However, if you are interested in a more extended commitment ranging from three to six months, you will need to participate in the interview process.
+                 Successfully clearing the interview will qualify you for a 3-6 month internship with a stipend.</li>
+      </ul>
+      </div>
+        <div class="highlights">
+            <h4>Benefits Of The Internship</h4>
+            <ul> 
+                
+                <li><strong>Perks you will receive :-</strong><br>1.Offer Letter from Cognifyz Technologies.<br>
+                2.Internship Certificate<br>
+                3.Resume Building Support.<br>
+                4.Letter of recommendation based on performance</li> 
+                <li><strong>Real-World Experience:</strong> Dive into live projects and apply your knowledge in real-world scenarios.</li>
+                <li><strong>Mentorship:</strong> Benefit from the guidance of seasoned professionals to accelerate your learning and growth.</li>
+                <li><strong>Skill Development:</strong> Enhance your technical skills and gain insights into the latest industry trends.</li>
+                <li><strong>Networking Opportunities:</strong> Build professional connections and expand your career prospects.</li>
+            </ul>
+        </div>
+        <div class="qualifications">
+            <h5>Qualifications </h5>
+            <ul>
+                <li>Proficiency in HTML, CSS, and JavaScript</li>
+                <li>Understanding of responsive design principles</li>
+                <li>Strong problem-solving skills and eagerness to learn</li>
+            </ul>
+        </div>
+        <div class="cta">
+            <button onclick="location.href='#'">Apply Now</button>
+        </div>
+        <div class="footer">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please reach out to:</p>
+            <p>Email: <a href="contact@cognifyz.com">contact@cognifyz.com</a></p>
+            <p>Linkedln: cognifyz-Technologies</p>
+            <p>Instagram :cognifyz-tech</p>
+        </div>
+    </div>
+</body>
+</html>

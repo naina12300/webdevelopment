@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slideshow">
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image1.jpg" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image2.jpg" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image3.webp" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image4.avif" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image5.jpeg" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image6.jpeg" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image7.jpeg" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image8.jpeg" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image9.png" style="width:100%">
+        </div>
+
+        <div class="slides">
+            <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image10.jpeg" style="width:100%">
+        </div>
+        <div class="dots">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Greeting,Basic calculator and color changing button<</title>
+    <style>
+        #calculateButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+    <h1> Greeting,Basic calculator and color changing button</h1>
+    <input type="number " id="num1" placeholder="Enter first number">
+<input type ="number" id="num2" placeholder="Enter second number">
+<button id="calculateButton" onclick="changeColor()">ADD</button>
+<p id="result"></p>
+</div>
+    <script>
+        document.getElementById('calculateButton').addEventListener('click', function() {
+            let num1 = parseFloat(document.getElementById('num1').value);
+            let num2 = parseFloat(document.getElementById('num2').value);
+            if (!isNaN(num1) && !isNaN(num2)) {
+                let sum = num1 + num2;
+                document.getElementById('result').textContent = 'Result: ' + sum;
+            } else {
+                document.getElementById('result').textContent = 'Please enter valid numbers';
+            }
+        
+        });
+        function changeColor() {
+            var button = document.getElementById('calculateButton');
+            var colors = [ 'purple'];
+            
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            button.style.backgroundColor = randomColor;
+        }
+        function Greeting() {
+            const now = new Date();
+            const hours = now.getHours();
+            let time;
+        
+            if (hours < 12) {
+                time = "GoodWishing you a morning as bright and beautiful as you are.! Morning";
+            } else if (hours < 18) {
+                time = "May your afternoon be as bright and warm as the rays of the sun. Good afternoon!";
+            } else {
+               time = "Good evening! Hope your day was as splendid as you are";
+            }
+        
+            alert(time);
+        }
+        Greeting();
+    </script>
+</body>
+</html>

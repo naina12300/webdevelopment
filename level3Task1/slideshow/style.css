@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+body{
+    background-color: lightseagreen;
+}
+
+.slideshow{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.dots {
+    text-align: center;
+    padding: 20px;
+    background: #f0eded;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active {
+    background-color: lightblue;
+}

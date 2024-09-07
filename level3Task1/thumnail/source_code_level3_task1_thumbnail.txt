@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <div class="gallery">
+        <img src= "C:\Users\HP\Desktop\Naina Internship\level3Task1\image1.jpg"alt="Image 1" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image2.jpg" alt="Image 2" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image3.webp" alt="Image 3" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image4.avif" alt="Image 4" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image5.jpeg" alt="Image 5" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image6.jpeg" alt="Image 6" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image7.jpeg" alt="Image 7" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image8.jpeg" alt="Image 8" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image9.png" alt="Image 9" class="thumbnail">
+        <img src="C:\Users\HP\Desktop\Naina Internship\level3Task1\image10.jpeg" alt="Image 10" class="thumbnail">
+        
+    </div>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="content" id="Image">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
